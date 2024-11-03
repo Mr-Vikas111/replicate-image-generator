@@ -14,9 +14,12 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
 - **API Endpoints**:
   ```bash
   http://127.0.0.1:8000/image-generator/
+
+  use image model ->  lucataco/realistic-vision-v5
   ```
   ```bash
   http://127.0.0.1:8000/fine-tune/
+  use image fine-tune model ->  halimalrasihi/flux-mystic-animals
   ```
 - **Pydantic Schemas**: Ensure data validation and serialization.
 - **Secret Management**: Centralized management of API keys and secrets.
