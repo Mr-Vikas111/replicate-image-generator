@@ -11,7 +11,7 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
 ## Project Structure #
 
 ```image-generator/```
-├── ```app/```                  # Main application directory
+```├── app/```                  # Main application directory
 │   ├── __init__.py       # Marks the directory as a Python package
 │   ├── keys.py           # Contains all secret keys and configuration
 │   ├── main.py           # Main application file containing API routes
