@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115.4-orange)
-![Pytest](https://docs.pytest.org/en/stable/)
+![](https://github.com/Mr-Vikas111/django-pytest/actions/workflows/django.yml/badge.svg)
 
 
 ## Description
@@ -55,7 +55,7 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
   To run the application, use the following command:
   
   ```bash
-  uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+  uvicorn app.main:app --reload
  ```
 
 ## Running Tests
