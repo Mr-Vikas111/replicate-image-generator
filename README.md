@@ -18,7 +18,6 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
   ```bash
   http://127.0.0.1:8000/fine-tune/
   ```
-- 
 - **Pydantic Schemas**: Ensure data validation and serialization.
 - **Secret Management**: Centralized management of API keys and secrets.
 - **Test Cases**: the test cases for verifying the functionality of the application. The tests are designed to ensure that each component behaves as expected and to maintain overall code quality.
@@ -42,11 +41,11 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
      ```bash
      python -m venv venv
   3. Activate the virtual environment:
-     On macOS/Linux:
+     - On macOS/Linux:
      ```bash
      venv\Scripts\activate
      ```
-     On macOS/Linux:
+     - On macOS/Linux:
       ```bash
      source venv/bin/activate
      ```
