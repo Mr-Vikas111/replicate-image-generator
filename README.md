@@ -12,8 +12,12 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
 ## Features
 
 - **API Endpoints**:
-  ```bash http://127.0.0.1:8000/image-generator/ ```
-  ```bash  http://127.0.0.1:8000/fine-tune/ ```
+  ```bash
+  http://127.0.0.1:8000/image-generator/
+  ```
+  ```bash
+  http://127.0.0.1:8000/fine-tune/
+  ```
 - 
 - **Pydantic Schemas**: Ensure data validation and serialization.
 - **Secret Management**: Centralized management of API keys and secrets.
