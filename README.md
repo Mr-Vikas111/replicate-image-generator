@@ -10,7 +10,7 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
 
 ## Project Structure #
 
-image-generator/
+```image-generator/```
 ├── app/                  # Main application directory
 │   ├── __init__.py       # Marks the directory as a Python package
 │   ├── keys.py           # Contains all secret keys and configuration
@@ -22,5 +22,5 @@ image-generator/
 ├── pytest.ini            # Configuration test case requiments
 ├── api.http              # Configure for api test in local machine usine VScode extensions (name -> REST Client)
 ├── requirements.txt      # List of project dependencies
-└── README.md             # Project documentation
+└── README.md             # Project documentation```
 
