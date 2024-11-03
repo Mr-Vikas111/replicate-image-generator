@@ -8,19 +8,22 @@
 
 This project is a built with FastAPI. It provides APIs for  Replicate Image generation endpoint to fine-tune and generate images.
 
-## Project Structure #
+## Features
 
-```image-generator/```
-```├── app/```                  # Main application directory
-│   ├── __init__.py       # Marks the directory as a Python package
-│   ├── keys.py           # Contains all secret keys and configuration
-│   ├── main.py           # Main application file containing API routes
-│   └── schemas.py        # Individual Pydantic model definitions
-│       
-├── test.py               # Test cases for the application
-├── Dockerfile            # Configuration for building the Docker image
-├── pytest.ini            # Configuration test case requiments
-├── api.http              # Configure for api test in local machine usine VScode extensions (name -> REST Client)
-├── requirements.txt      # List of project dependencies
-└── README.md             # Project documentation```
+- **API Endpoints**:
+  - 
+- **Pydantic Schemas**: Ensure data validation and serialization.
+- **Secret Management**: Centralized management of API keys and secrets.
 
+## Requirements
+
+- Python 3.7 or higher
+- FastAPI
+- [Any other dependencies, e.g., Pydantic, Uvicorn]
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mr-Vikas111/replicate-image-generator.git
+   cd your-repo-name
