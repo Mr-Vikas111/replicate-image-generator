@@ -8,7 +8,7 @@
 
 This project is a built with FastAPI. It provides APIs for  Replicate Image generation endpoint to fine-tune and generate images.
 
-## Project Structure
+## Project Structure #
 
 image-generator/
 ├── app/                  # Main application directory
