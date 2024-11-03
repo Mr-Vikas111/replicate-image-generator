@@ -3,7 +3,8 @@ import os
 
 load_dotenv()
 
-REPLICATE_TOKEN=os.environ.get('REPLICATE_ACCESS_KEY') 
+# REPLICATE_TOKEN=os.environ.get('REPLICATE_ACCESS_KEY') 
+REPLICATE_TOKEN="r8_fGUkgQZYpvzwpBt5QzwsAV5EfqatyT60hvIoF"
 # REPLICATE_URL = os.environ.get('REPLICATE_API_URL')
 REPLICATE_URL = "https://api.replicate.com/v1/predictions"
 
