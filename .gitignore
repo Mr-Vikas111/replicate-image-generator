@@ -1,3 +1,6 @@
 *__py*
 .env
 html*
+.DS_Store
+.pytest_cache
+.coverage
