@@ -1,6 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
-from main import app
+
+from app.main import app
 
 @pytest.fixture
 def client():
@@ -17,6 +18,7 @@ def test_generate_image(client):
     
     print("reposne_json",response)
     assert response.status_code == 402
+    # assert response.status_code == 200
     # assert response.json()
 
 def test_image_fine_tune(client):
@@ -28,4 +30,5 @@ def test_image_fine_tune(client):
     response = client.post("/fine-tune/",json=payload)
    
     assert response.status_code == 402
+    # assert response.status_code == 200
     assert response.json()

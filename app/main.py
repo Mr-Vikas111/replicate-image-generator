@@ -1,10 +1,10 @@
 from fastapi import FastAPI, HTTPException
-from schemas import GenerateImageRequest, FineTuneImageRequest,GenerateImageRequestResponse,GenerateFineTuneRequestResponse
+from .schemas import GenerateImageRequest, FineTuneImageRequest,GenerateImageRequestResponse,GenerateFineTuneRequestResponse
 import requests
 
 
 #import env keys
-import keys
+from . import keys
 
 # Set up logging
 import logging
