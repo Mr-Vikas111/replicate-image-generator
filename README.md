@@ -19,6 +19,7 @@ This project is a built with FastAPI. It provides APIs for  Replicate Image gene
   ```
   ```bash
   http://127.0.0.1:8000/fine-tune/
+  
   use image fine-tune model ->  halimalrasihi/flux-mystic-animals
   ```
 - **Pydantic Schemas**: Ensure data validation and serialization.
