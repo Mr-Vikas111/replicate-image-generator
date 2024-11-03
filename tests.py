@@ -18,8 +18,8 @@ def test_generate_image(client):
     
     print("reposne_json",response)
     assert response.status_code == 402
-    # assert response.status_code == 200
-    # assert response.json()
+    assert response.status_code == 200
+    assert response.json()
 
 def test_image_fine_tune(client):
     payload = {   
@@ -30,5 +30,5 @@ def test_image_fine_tune(client):
     response = client.post("/fine-tune/",json=payload)
    
     assert response.status_code == 402
-    # assert response.status_code == 200
+    assert response.status_code == 200
     assert response.json()
