@@ -1,0 +1,13 @@
+# .coveragerc to control coverage.py
+[run]
+source = .
+omit =
+   *env/*
+   *env/bin/*
+   *env/include/*
+   *env/lib/*
+
+[report]
+#fail_under = 100
+show_missing = True
+#skip_covered = True

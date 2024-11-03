@@ -1,0 +1,19 @@
+
+POST http://127.0.0.1:8000/image-generator/ HTTP/1.1
+content-type: application/json
+
+{
+    "input": {
+        "prompt": "RAW photo, a portrait photo of a latina woman in casual clothes, natural skin, 8k uhd, high quality, film grain, Fujifilm XT3"
+    }
+}
+
+###
+POST http://127.0.0.1:8000/fine-tune/ HTTP/1.1
+content-type: application/json
+
+{   
+    "input": {
+        "prompt": "majestic lion with dragon wings and a mane that glows like a sunset, standing proudly on a cliff overlooking a magical forest.\\n\\n, in the style of m1st1c"
+    }
+}
