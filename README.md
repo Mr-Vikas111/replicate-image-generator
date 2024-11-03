@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115.4-orange)
-![](https://github.com/Mr-Vikas111/django-pytest/actions/workflows/django.yml/badge.svg)
+![Tests](https://github.com//Mr-Vikas111/replicate-image-generator/actions/workflows/fastapici.yml/badge.svg)
 
 
 ## Description
